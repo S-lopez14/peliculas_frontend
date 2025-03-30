@@ -105,7 +105,7 @@ export const MediaUpdate = () => {
           Tipo: media.Tipo 
         });
       }
-    }, [media_id])
+    }, [media])
   
     const handleOnChange = ({ target }) => {
       const { name, value } = target;

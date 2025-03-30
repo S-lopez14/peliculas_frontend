@@ -18,7 +18,7 @@ function App() {
     <Route exact path='/genero' component={GeneroView}/>
     <Route exact path='/productora' component={ProductoraView}/>
     <Route exact path='/tipo' component={TipoView}/>
-    <Route exact path='/medias/edit/:mediaId' component={MediaUpdate} />
+    <Route exact path='/medias/edit/:media_id' component={MediaUpdate} />
     <Redirect to='/' />
   </Switch>
 </Router>
