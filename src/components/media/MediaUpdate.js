@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams} from 'react-router-dom';
 import { getMediaForId, updateMedia } from '../../services/mediaService';
 import { getGeneros } from '../../services/generoService';
 import { getDirectores } from '../../services/directorService';
@@ -147,7 +147,7 @@ export const MediaUpdate = () => {
           <div className='card-body'>
             <div className='row'>
               <div className='col-md-4'>
-                <img src={media?.Url}/>
+                <img src={media?.Url} className="card-img-top"/>
               </div>
               <div className='col-md-8'>
   
