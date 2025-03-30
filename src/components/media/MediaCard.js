@@ -20,7 +20,7 @@ export const MediaCard = (props) => {
                 <p className="card-text">{`Productora: ${media.Productora.Nombre}`}</p>
                 <p className="card-text">{`Tipo: ${media.Tipo.Nombre}`}</p>
                 <p className="card-text">
-                  <Link to = {`inventories/edit/${media._id}`}>Ver mas</Link>
+                  <Link to = {`medias/edit/${media._id}`}>Ver mas</Link>
                 </p>
             </div>
         </div>
